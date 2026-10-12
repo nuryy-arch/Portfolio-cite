@@ -4,16 +4,16 @@
 
 export const contacts = {
   /** Ссылка на Telegram (замените на свою) */
-  telegram: 'https://t.me/your_telegram_username',
+  telegram: 'https://t.me/The_Don1y',
 
   /** Email (раскомментируйте и замените, когда будете готовы) */
-  // email: 'your@email.com',
+  // email: 'bb7124681@gmail.com',
 
   /** Телефон (раскомментируйте и замените, когда будете готовы) */
-  // phone: '+7 (xxx) xxx-xx-xx',
+  // phone: '+7 (776) 603-33-22',
 
   /** GitHub (раскомментируйте и замените) */
-  // github: 'https://github.com/your_username',
+  // github: 'https://github.com/nuryy-arch',
 } as const;
 
 /** Имя / никнейм, отображаемое на сайте */
