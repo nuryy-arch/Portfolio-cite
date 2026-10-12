@@ -36,6 +36,16 @@ export default function Projects() {
                         В разработке
                       </span>
                     </div>
+                  ) : project.imageUrl ? (
+                    <div className="w-full h-full relative overflow-hidden group-hover:scale-105 transition-transform duration-500">
+                      <img
+                        src={project.imageUrl}
+                        alt={project.title}
+                        className="w-full h-full object-cover object-top"
+                        loading="lazy"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-graphite-950 via-graphite-950/20 to-transparent opacity-60" />
+                    </div>
                   ) : (
                     <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-graphite-800 to-graphite-900">
                       <div className="text-center">

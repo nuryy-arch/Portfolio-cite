@@ -20,7 +20,7 @@ export const projects: Project[] = [
       'Стильный сайт для кофейни с меню, атмосферными фотографиями и удобной навигацией. Адаптивный дизайн для всех устройств.',
     technologies: ['React', 'TypeScript', 'Tailwind CSS'],
     url: 'https://donycoffee.vercel.app/',
-    imageUrl: null,
+    imageUrl: '/projects/dony-coffee.png',
   },
   {
     id: 'taskflow',
@@ -29,17 +29,17 @@ export const projects: Project[] = [
       'Веб-приложение для управления задачами с авторизацией, досками и удобным интерфейсом. Помогает организовать рабочий процесс.',
     technologies: ['React', 'TypeScript', 'Tailwind CSS'],
     url: 'https://taskflow-app-nuryy.vercel.app/login',
-    imageUrl: null,
+    imageUrl: '/projects/taskflow.png',
   },
   {
     id: 'barber-studio',
     title: 'BARBER STUDIO',
     description:
-      'Сайт для барбершопа с онлайн-записью, галереей работ и информацией об услугах. Проект находится в активной разработке.',
+      'Сайт для барбершопа с онлайн-записью, галереей работ, прайс-листом и стильным брутальным дизайном для мужской парикмахерской.',
     technologies: ['React', 'TypeScript', 'Tailwind CSS'],
-    url: null,
-    imageUrl: null,
-    inDevelopment: true,
+    url: 'https://barber-studio-theta.vercel.app',
+    imageUrl: '/projects/barber-studio.png',
+    inDevelopment: false,
   },
 ];
 
