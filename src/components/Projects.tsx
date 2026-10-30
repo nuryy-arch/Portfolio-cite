@@ -23,12 +23,12 @@ export default function Projects() {
         </AnimateOnScroll>
 
         {/* Projects grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
           {projects.map((project, index) => (
             <AnimateOnScroll key={project.id} delay={index * 150}>
               <div className="group glass-card overflow-hidden hover:border-accent-500/30 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl hover:shadow-accent-500/5 h-full flex flex-col">
                 {/* Project image / placeholder */}
-                <div className="relative h-48 bg-graphite-800 overflow-hidden">
+                <div className="relative h-48 sm:h-52 bg-graphite-800 overflow-hidden">
                   {project.inDevelopment ? (
                     <div className="absolute inset-0 flex flex-col items-center justify-center bg-graphite-800/90">
                       <Clock size={32} className="text-graphite-400 mb-2" />

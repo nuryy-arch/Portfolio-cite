@@ -41,6 +41,16 @@ export const projects: Project[] = [
     imageUrl: '/projects/barber-studio.png',
     inDevelopment: false,
   },
+  {
+    id: 'nail-stylist-mody',
+    title: 'MOLDIR NAILS',
+    description:
+      'Премиальный сайт для студии ногтевого сервиса с онлайн-записью, галереей работ, прайс-листом и встроенной админ-панелью.',
+    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Supabase'],
+    url: 'https://nail-stylist-mody.vercel.app',
+    imageUrl: '/projects/nail-stylist-mody.png',
+    inDevelopment: false,
+  },
 ];
 
 // ============================================================

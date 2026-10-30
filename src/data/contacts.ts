@@ -4,7 +4,7 @@
 
 export const contacts = {
   /** Ссылка на Telegram (замените на свою) */
-  telegram: 'https://t.me/The_Don1y',
+  telegram: 'https://t.me/Nury_First',
 
   /** Email (раскомментируйте и замените, когда будете готовы) */
   // email: 'bb7124681@gmail.com',
@@ -17,7 +17,7 @@ export const contacts = {
 } as const;
 
 /** Имя / никнейм, отображаемое на сайте */
-export const SITE_AUTHOR = 'Nuryy';
+export const SITE_AUTHOR = 'Нури';
 
 /** Основной заголовок на главном экране */
 export const HERO_TITLE = 'Создаю современные сайты для бизнеса';
