@@ -9,9 +9,9 @@ const navLinks = [
   { label: 'Контакты', href: '#contact' },
 ];
 
-export default function Footer() {
-  const currentYear = new Date().getFullYear();
+const currentYear = new Date().getFullYear();
 
+export default function Footer() {
   return (
     <footer className="border-t border-graphite-800/50 bg-graphite-950/80">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
